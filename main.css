@@ -1,6 +1,6 @@
 body{
     background-color: #c4c4c4;
-    font-family: 'Sansation Regular', sans-serif;
+    font-family: Sansation, sans-serif; !important;
 
 }
 
@@ -8,13 +8,15 @@ body{
     width: 70%;
 }
 
-.header{
-    width: 90%;
-    height: 10em;
-    margin-top: 1em;
+.header, .nav-button, .skills-list, .my-photo {
     border-radius: 10px;
     background: #585858;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header{
+    height: 10em;
+    margin-top: 1em;
 }
 
 .header_title {
@@ -27,4 +29,56 @@ body{
     margin-top: 3.4%;
 
     color: #FFFFFF;
+}
+
+
+.nav-button {
+    margin-top: 30px;
+    height: 2.5em;
+    width: 15%;
+    margin-left: 3.8em;
+}
+
+.nav-button-text {
+    color: white;
+    margin-top: 0.5em;
+}
+
+.skills{
+
+}
+
+.skills-list, .my-photo {
+    margin-top: 3em;
+    margin-left: 2.8em;
+    width: 30em;
+    height: 29em;
+}
+
+
+.skills-list-text {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.skills-list-ul {
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+.skills-list-li {
+    margin-top: 1em;
+}
+
+.my-photo {
+    background-image: url("img/me.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
