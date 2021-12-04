@@ -37,6 +37,15 @@ body{
     height: 2.5em;
     width: 15%;
     margin-left: 3.8em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-button:hover {
+    border: 2px solid black;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
 }
 
 .nav-button-text {
