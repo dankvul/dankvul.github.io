@@ -4,11 +4,7 @@ body{
 
 }
 
-.content {
-    width: 70%;
-}
-
-.header, .nav-button, .skills-list, .my-photo {
+.header, .nav-button, .skills-list, .my-photo, .form{
     border-radius: 10px;
     background: #585858;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -34,9 +30,8 @@ body{
 
 .nav-button {
     margin-top: 30px;
-    height: 2.5em;
-    width: 15%;
-    margin-left: 3.8em;
+    height: 2.4em;
+    margin-left: 5em;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -53,13 +48,9 @@ body{
     margin-top: 0.5em;
 }
 
-.skills{
-
-}
-
 .skills-list, .my-photo {
     margin-top: 3em;
-    margin-left: 2.8em;
+    margin-left: 6.5em;
     width: 30em;
     height: 29em;
 }
@@ -90,4 +81,8 @@ body{
     background-image: url("img/me.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+
+.form {
+    height: 5em;
 }
