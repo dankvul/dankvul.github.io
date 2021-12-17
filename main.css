@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1100px) {
+    .ads-footer {
+        display: none;
+    }
+}
+
 body{
     background-color: #c4c4c4;
     font-family: Sansation, sans-serif; !important;
@@ -30,15 +36,13 @@ body{
 
 
 .nav-button {
-    margin-top: 30px;
-    height: 2.4em;
+    margin-top: 2.5em;
     margin-left: 5em;
     text-decoration: none;
     transition: 0.3s;
 }
 
 .nav-button:hover {
-    border: 2px solid black;
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:         3px 3px 5px 6px #ccc;
@@ -81,17 +85,16 @@ body{
 .my-photo {
     background-image: url("img/me.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 
 .form {
     height: 30em;
     margin-top: 2em;
-
+    margin-bottom: 8em;
 }
 
 .footer {
-    height: 3em;
+    height: 6.3em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
