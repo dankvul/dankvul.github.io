@@ -19,7 +19,6 @@ body{
 .header{
     height: 10em;
     margin-top: 1em;
-    margin-left: 5em;
 }
 
 .header_title {
@@ -37,7 +36,6 @@ body{
 
 .nav-button {
     margin-top: 2.5em;
-    margin-left: 5em;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -55,7 +53,6 @@ body{
 
 .skills-list, .my-photo {
     margin-top: 3em;
-    margin-left: 6.5em;
     width: 30em;
     height: 29em;
 }
@@ -83,7 +80,7 @@ body{
 }
 
 .my-photo {
-    background-image: url("img/me.jpg");
+    background-image: url("../img/me.jpg");
     background-repeat: no-repeat;
 }
 
@@ -97,4 +94,16 @@ body{
     height: 6.3em;
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+.task-list-title {
+    margin-top: 1em;
+}
+
+#load_time {
+    color: #FFFFFF;
+}
+
+.active {
+    border: 1px solid #ff994f;
 }
